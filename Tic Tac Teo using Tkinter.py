@@ -18,7 +18,7 @@ def click(id):
     elif counter % 2 != 0:
         board[id]= tag1
     update(id)
-    header2.grid(row=1,column=0, columnspan=3)
+    header.grid(row=1,column=0, columnspan=3)
     print(board)
     counter += 1
     if counter > 4:
